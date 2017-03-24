@@ -2,7 +2,7 @@ import hashlib, os, sys, signal, argparse
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("path", help="full path", type=str)
+parser.add_argument("path", help="relative or full path", type=str)
 parser.add_argument("-md5", help="md5 hash", action="store_true")
 parser.add_argument("-sha1", help="sha1 hash", action="store_true")
 parser.add_argument("-sha256", help="sha256 hash", action="store_true")
