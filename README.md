@@ -1,5 +1,5 @@
 # hashdump
-Get recursive hashes for files (windows/unix)
+Get hashes for recursive files (windows/unix)
 
 
     usage: hash.py [-h] [-md5] [-sha1] [-sha256] path
