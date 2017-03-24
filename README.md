@@ -5,7 +5,7 @@ Get hashes for recursive files (windows/unix)
     usage: hash.py [-h] [-md5] [-sha1] [-sha256] path
 
     positional arguments:
-      path        full path
+      path        relative or full path
 
     optional arguments:
       -h, --help  show this help message and exit
